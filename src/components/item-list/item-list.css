@@ -1,6 +1,7 @@
 .item-list .list-group-item {
   cursor: pointer;
   transition: 1s;
+  background-color: cadetblue;
 }
 
 .item-list {

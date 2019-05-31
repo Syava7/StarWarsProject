@@ -3,6 +3,7 @@
   margin-top: 1rem;
   flex-direction: row;
   padding: 1rem;
+  background-color: cadetblue;
 }
 
 .person-details .person-image {
@@ -14,6 +15,7 @@
 .person-details .list-group-item {
   padding: .25rem;
   transition: 1s;
+  background-color: cadetblue;
 }
 
 .person-details .list-group-item .term{

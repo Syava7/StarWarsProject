@@ -17,6 +17,7 @@
 .random-planet .list-group-item {
   padding: .25rem;
   transition: 1s;
+  background-color: cadetblue;
 }
 
 .random-planet .list-group-item .term {
