@@ -2,5 +2,9 @@
   max-width: 1140px;
   background-color: darkcyan;
   padding-bottom: 30px;
-  height: 100vh;
+  
+}
+
+.toggle-planet {
+  margin-bottom: 25px;
 }
