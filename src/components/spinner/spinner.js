@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './spinner.css';
-import { randomFillSync } from 'crypto';
 
 const Spinner = () => {
   return (
@@ -15,5 +14,3 @@ const Spinner = () => {
 };
 
 export default Spinner;
-
-

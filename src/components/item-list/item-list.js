@@ -19,7 +19,7 @@ export default class ItemList extends Component {
         this.setState({
           peopleList
         });
-    });
+      });
   }
 
   renderItems(arr) {

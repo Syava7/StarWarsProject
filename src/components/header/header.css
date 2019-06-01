@@ -12,18 +12,18 @@
 }
 
 .header ul li:hover {
-  background-color: red;
-}
-
-.header a:hover {
+  background-color: rgb(3, 219, 219);
   text-decoration: none;
 }
 
-.header h3 a {
-  color: red;
-  transition: 1.25s;
+
+
+.header h2 a {
+  color: white;
+  text-decoration: none;
 }
 
-.header h3 a:hover {
-  color: black;
+.header h2 a:hover {
+  color: #00bc8c;
+  text-decoration: none;
 }

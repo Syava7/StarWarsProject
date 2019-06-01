@@ -38,7 +38,7 @@ export default class SwapiService {
   }
 
   async getStarship(id) {
-    const starship = await this.getResource(`/starships/${id}/`);
+    const starship = this.getResource(`/starships/${id}/`);
     return this._transformStarship(starship);
   }
 
@@ -48,37 +48,36 @@ export default class SwapiService {
   }
 
   _transformPlanet = (planet) => {
-    
     return {
-        id: this._extractId(planet),
-        name: planet.name,
-        population: planet.population,
-        rotationPeriod: planet.rotation_period,
-        diameter: planet.diameter
-    }
-  }
+      id: this._extractId(planet),
+      name: planet.name,
+      population: planet.population,
+      rotationPeriod: planet.rotation_period,
+      diameter: planet.diameter
+    };
+  };
 
-  _transformStarship = (starships) => {
+  _transformStarship = (starship) => {
     return {
-      id: this._extractId(starships),
-      name: starships.name,
-      model: starships.model,
-      manufacturer: starships.manufacturer,
-      costInCredits: starships.costInCredits,
-      length: starships.length,
-      crew: starships.crew,
-      passengers: starships.passengers,
-      cargoCapacity: starships.cargoCapacity
+      id: this._extractId(starship),
+      name: starship.name,
+      model: starship.model,
+      manufacturer: starship.manufacturer,
+      costInCredits: starship.cost_in_credits,
+      length: starship.length,
+      crew: starship.crew,
+      passengers: starship.passengers,
+      cargoCapacity: starship.cargo_capacity
     }
-  }
+  };
 
   _transformPerson = (person) => {
     return {
       id: this._extractId(person),
       name: person.name,
       gender: person.gender,
-      birthYear: person.birthYear,
-      eyeColor: person.eyeColor
+      birthYear: person.birth_year,
+      eyeColor: person.eye_color
     }
   }
 }

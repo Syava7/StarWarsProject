@@ -1,10 +1,4 @@
-.container {
-  max-width: 1140px;
-  background-color: darkcyan;
-  padding-bottom: 30px;
-  
+.toggle-planet {
+  margin-bottom: 1rem;
 }
 
-.toggle-planet {
-  margin-bottom: 25px;
-}
