@@ -1,5 +1,5 @@
 .header {
-  padding-top: .5rem;
+  margin-top: .5rem;
   padding-left: 10px;
 }
 
@@ -8,22 +8,26 @@
   margin: 0;
   padding: .5rem 1rem;
   border-radius: 3px;
-  transition: 1s;
 }
 
 .header ul li:hover {
-  background-color: rgb(3, 219, 219);
+  background-color: #444;
+}
+
+.header a:hover {
   text-decoration: none;
 }
 
-
-
-.header h2 a {
+.header h3 a {
   color: white;
-  text-decoration: none;
 }
 
-.header h2 a:hover {
+.header h3 a:hover {
   color: #00bc8c;
-  text-decoration: none;
+}
+
+.header button {
+  height: 2.2rem;
+  margin-top: 1px;
+  margin-left: 3px;
 }
